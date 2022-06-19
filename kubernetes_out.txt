@@ -1,0 +1,10 @@
+voclabs:~/environment/DevOps_Microservices/project-ml-microservice-kubernetes (master) $ minikube kubectl -- get pods
+NAME      READY   STATUS    RESTARTS   AGE
+proj4vg   1/1     Running   0          48m
+(.devops) voclabs:~/environment/DevOps_Microservices/project-ml-microservice-kubernetes (master) $ ./run_kubernetes.sh
+Error from server (AlreadyExists): pods "proj4vg" already exists
+NAME      READY   STATUS    RESTARTS   AGE
+proj4vg   1/1     Running   0          44m
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
